@@ -27,7 +27,7 @@ module Spawn
   #   :argv   => changes name of the spawned process as seen in ps
   def self.default_options(options = {})
     @@default_options.merge!(options)
-    @@logger.info "spawn> default options = #{options.inspect}"
+    #@@logger.info "spawn> default options = #{options.inspect}"
   end
 
   # set the resources to disconnect from in the child process (when forking)
